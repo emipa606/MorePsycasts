@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>MorePsycasts_AwakenMechanites</defName>
+    <label>awaken mechanites</label>
+    <description>Psychically awaken latent mechanites in the target's muscles, improving their abilities but causing them great pain.</description>
+    <level>2</level>
+    <iconPath>UI/AwakenMechanites</iconPath>
+    <hotKey>Misc11</hotKey>
+    <statBases>
+      <Ability_EntropyGain>20</Ability_EntropyGain>
+      <Ability_Duration>60</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <targetParams>
+        <canTargetSelf>False</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>FibrousMechanites</hediffDef>
+        <onlyBrain>False</onlyBrain>
+        <psychic>True</psychic>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>MorePsycasts_HeartAttack</defName>
+    <label>heart attack</label>
+    <description>Psychically cause a target's heart to stop for a brief moment, drastically weakening them.</description>
+    <level>4</level>
+    <iconPath>UI/HeartAttack</iconPath>
+    <hotKey>Misc11</hotKey>
+    <statBases>
+      <Ability_EntropyGain>30</Ability_EntropyGain>
+      <Ability_Duration>60</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <targetParams>
+        <canTargetSelf>False</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>HeartAttack</hediffDef>
+        <onlyBrain>False</onlyBrain>
+        <psychic>True</psychic>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>MorePsycasts_Entomb</defName>
+    <label>entomb</label>
+    <description>Raise rocks around something to imprison it for a short while.</description>
+    <level>5</level>
+    <iconPath>UI/Entomb</iconPath>
+    <hotKey>Misc10</hotKey>
+    <statBases>
+      <Ability_EntropyGain>30</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0</warmupTime>
+      <targetParams>
+        <canTargetPawns>True</canTargetPawns>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityWallraise">
+        <compClass>CompAbilityEffect_Wallraise</compClass>
+        <pattern>
+          <li>(1, 0)</li>
+          <li>(-1, 0)</li>
+          <li>(0, 1)</li>
+          <li>(0, -1)</li>
+          <li>(1, 1)</li>
+          <li>(-1, -1)</li>
+          <li>(-1, 1)</li>
+          <li>(1, -1)</li>
+        </pattern>
+        <screenShakeIntensity>1.0</screenShakeIntensity>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>25</clamorRadius>
+        <sound>PsycastWallraise</sound>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>

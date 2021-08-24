@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>MorePsycasts_Silence</defName>
+    <label>silence</label>
+    <description>Psychically disrupt a target's connection to magic itself, rendering them incapable of spellcasting for some time.</description>
+    <level>3</level>
+    <iconPath>UI/Silence</iconPath>
+    <hotKey>Misc11</hotKey>
+    <statBases>
+      <Ability_EntropyGain>20</Ability_EntropyGain>
+      <Ability_Duration>60</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <targetParams>
+        <canTargetSelf>False</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>TM_MuteHD</hediffDef>
+        <onlyBrain>False</onlyBrain>
+        <psychic>True</psychic>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>MorePsycasts_SilencePulse</defName>
+    <label>silence pulse</label>
+    <description>Psychically disrupt connection to magic in a zone, rendering every mage near the target point unable of spellcasting for some time.</description>
+    <level>5</level>
+    <iconPath>UI/SilencePulse</iconPath>
+    <hotKey>Misc12</hotKey>
+    <statBases>
+      <Ability_EntropyGain>40</Ability_EntropyGain>
+      <Ability_Duration>60</Ability_Duration>
+      <Ability_EffectRadius>5</Ability_EffectRadius>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <targetParams>
+        <canTargetSelf>False</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>TM_MuteHD</hediffDef>
+        <onlyBrain>False</onlyBrain>
+        <psychic>True</psychic>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>
