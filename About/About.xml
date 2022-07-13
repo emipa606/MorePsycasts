@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>More Psycasts (Continued)</name>
   <packageId>Mlie.MorePsycasts</packageId>
@@ -19,20 +19,24 @@
   <loadAfter>
     <li>Ludeon.Rimworld.Royalty</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Metalocifs mod
 https://github.com/Metalocif/MorePsycasts
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/MorePsycasts][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 A Rimworld mod that adds a few psycasts to the Royalty expansion.
 
 Awaken Mechanites (level 2, 20 entropy) - Awaken latent mechanites in the target's body. This is priced as a cheaper version of Focus, as the buffs are less powerful and the pain and tiredness make for medium-term consequences.
@@ -48,7 +52,7 @@ Silence (level 3, 20 entropy) - Silences a target, preventing it from using magi
 
 Silence Pulse (level 5, 40 entropy) - Silences targets in an area, preventing them from using magic. Priced cheaper than Berserk Pulse.
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -59,4 +63,3 @@ Silence Pulse (level 5, 40 entropy) - Silences targets in an area, preventing th
 [/list]
 </description>
 </ModMetaData>
-
