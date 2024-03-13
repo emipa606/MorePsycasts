@@ -16,4 +16,8 @@
     <li>/</li>
     <li IfModActive="Torann.ARimworldOfMagic">RWoM_Psycasts</li>
   </v1.4>
+  <v1.5>
+    <li>/</li>
+    <li IfModActive="Torann.ARimworldOfMagic">RWoM_Psycasts</li>
+  </v1.5>
 </loadFolders>
