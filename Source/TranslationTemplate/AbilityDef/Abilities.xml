@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: awaken mechanites -->
+  <MorePsycasts_AwakenMechanites.label>awaken mechanites</MorePsycasts_AwakenMechanites.label>
+  <!-- EN: Psychically awaken latent mechanites in the target's muscles, improving their abilities but causing them great pain. -->
+  <MorePsycasts_AwakenMechanites.description>Psychically awaken latent mechanites in the target's muscles, improving their abilities but causing them great pain.</MorePsycasts_AwakenMechanites.description>
+  <!-- EN: entomb -->
+  <MorePsycasts_Entomb.label>entomb</MorePsycasts_Entomb.label>
+  <!-- EN: Raise rocks around something to imprison it for a short while. -->
+  <MorePsycasts_Entomb.description>Raise rocks around something to imprison it for a short while.</MorePsycasts_Entomb.description>
+  <!-- EN: heart attack -->
+  <MorePsycasts_HeartAttack.label>heart attack</MorePsycasts_HeartAttack.label>
+  <!-- EN: Psychically cause a target's heart to stop for a brief moment, drastically weakening them. -->
+  <MorePsycasts_HeartAttack.description>Psychically cause a target's heart to stop for a brief moment, drastically weakening them.</MorePsycasts_HeartAttack.description>
+</LanguageData>
